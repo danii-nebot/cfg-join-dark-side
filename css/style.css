@@ -1,0 +1,43 @@
+body {
+  background-color: #222;
+}
+
+.imgs-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.box {
+  position:absolute;
+  width:250px;
+}
+
+.box img {
+  display: block;
+  margin: 0 auto;
+  -moz-box-shadow: 0 0 8px 5px #111;
+  -webkit-box-shadow: 0 0 8px 5px #111;
+  box-shadow: 0 0 8px 5px #111;
+}
+
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('../images/darth-vader.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  color: #d43f3a;
+  margin-top: 50px;
+  font-family: 'Frijole', cursive;
+}
+.jumbotron h3 {
+  color: white;
+  font-family: 'Coda', cursive;
+}
+.jumbotron form {
+  margin-top: 20px;
+}
